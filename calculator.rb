@@ -47,7 +47,7 @@ difference = (first_number - second_number);
 #     expect(product).to eq(first_number*second_number)
 #   end
 
-
+product = (first_number * second_number);
 
 #   it "contains a local variable called quotient that is assigned to the result of dividing first_number by second_number" do
 #     first_number = get_variable_from_file('./calculator.rb', "first_number")
@@ -57,3 +57,5 @@ difference = (first_number - second_number);
 #     expect(quotient).to eq(first_number/second_number)
 #   end
 # end
+
+quotient = first_number / second_number;
